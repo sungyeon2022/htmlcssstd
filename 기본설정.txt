@@ -1,0 +1,10 @@
+톰캣  conf 폴더 \ 메모장으로 
+sever.xml -> port="8080"을 9090으로(포트 충돌 방지)
+이클립스 설정
+익스플로러X
+교체 : 크롬사용
+html, java, css 인코딩 : UTF-8
+
+naver.me/xsUzlEdh - html이미지
+
+naver.me/FpMieJ8h 

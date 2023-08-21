@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>padding(안쪽여백)</title>
+		<style>
+			p{
+				border: 5px solid red;
+				background: yellow;
+			}
+			
+			.box1{
+				padding: 20px;/*상하좌우*/
+			}
+			.box2{
+				padding: 20px 50px; /*상하 좌우*/
+			}
+			.box3{
+				padding: 20px 50px 30px; /*상 좌우 하*/
+			}
+			.box4{
+				padding: 10px 30px 50px 70px;/*상 우 하 좌*/
+			}
+			
+			div{
+				border-width: 10px 20px 30px 40px;/*시계방향*/
+				border-color: green red blue peru;/*4개씩 사용 가능*/
+				border-style: solid dotted double dashed;	
+			}
+		</style>
+	</head>
+	
+	<body>
+		<p class="box1">패딩 적용하기 1</p>
+		<p class="box2">패딩 적용하기 2</p>
+		<p class="box3">패딩 적용하기 3</p>
+		<p class="box4">패딩 적용하기 4</p>
+		
+		<div>
+			border의 속성
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>마진(margin) : 바깥쪽 여배 </title>
+		<style>
+			/*body의 모든영역 선택자*/
+			*{
+				margin: 0px;
+			}
+			p{
+				border:5px solid red;
+				background-color: yellow;
+			}
+			
+			.box1{
+				margin:20px;
+			}
+			.box2{
+				margin:20px 50px;
+			}
+			.box3{
+				margin:20px 50px 30px;
+			}
+			.box4{
+				margin:20px 30px 50px 70px;
+			}
+			/* 마진값은 더해지지 않음 큰속성 기준 변경 */
+			div{
+				
+			}
+		</style>
+	</head>
+	
+	<body>
+		<p class="box1">마진 테스트</p>
+		<p class="box2">마진 테스트</p>
+		<p class="box3">마진 테스트</p>
+		<p class="box4">마진 테스트</p>
+		
+		<div>
+			안녕
+		</div>
+		<div>
+			안녕
+		</div>
+		
+	</body>
+
+</html>
