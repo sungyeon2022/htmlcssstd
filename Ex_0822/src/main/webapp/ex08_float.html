@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>float을 통한 2단짜리 틀 만들기</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		#wrap {
+			margin: 0 auto;
+			width: 500px;
+			border: 5px solid red;
+			background-color: black;
+		}
+
+		#header {
+			width: 500px;
+			background-color: green;
+			margin-bottom: 10px;
+			text-align: center;
+			padding: 10px 0;
+			color: white;
+		}
+
+		#footer {
+			width: 500px;
+			background-color: dimgrey;
+			margin-top: 10px;
+			text-align: center;
+			color: white;
+			padding: 10px 0;
+		}
+		
+		#content{
+			width: 500px;
+			background-color: lightgreen;
+			overflow: hidden;
+		}
+		
+		#left {
+			width: 180px;
+			float: left;
+			background-color: goldenrod;
+			padding: 10px;
+		}
+
+		#right {
+			width: 180px;
+			float: right;
+			background-color: seagreen;
+			padding: 10px;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="header">
+			<p>나는 트로트가 싫어요</p>
+		</div>
+		<div id="content">
+			<div id="left">
+				<p>
+					ㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㄴㅇㅎㄻㄴㅇㄻㅇㅎㅁㅀㅁㄹㅇㅎㅁㅇㅀㄴㅀㅁㅀ
+					ㅁㅀㅁㅀㅁㅀㅁㅀㅁㅀㅁㄴㅇㄻㅇㄴㄻㄴㅇㄻㄴㅇㄻㄴㅇㄻㅇㄻㅇㄻㅇㄻㅇㄻㅇㄻㅇㄻㅇㄹ
+					ㅁㅇㄻㅇㄻㅇㄻㅇㄻㅇㄴㄻㄴㅇㄻㅇㄴㄻㅇㄴㄻㄴㅇㄻㅇㄴㄻㄴㅇㄻㅇㄹ
+				</p>
+			</div>
+			<div id="right">
+				<p>
+					ㅁㄴㅇㄻㄴㅇㄻㅇㄴㄻㄴㅇㄻㄴㅇㄻㄴㅇㄻㅇㄴㄻㄴㅇㄻㄴㅇㄻㄴㅇㄹ
+					ㅁㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇㄻㅇㄻㅇㄴㄻㅇㄻㅇㄻㅇㄴㄻㅇㄻㄴㅇㄻㄴㅇㄻㅇㄴㄹ
+					ㅁㄴㅇㄻㅇㄴㄻㅇㄴㄻㄴㅇㄻㄴㅇㄻㅇㄴㄻㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇㄹ
+				</p>
+			</div>
+		</div>
+		<div id="footer">
+			<p>사랑은 얄미운 나비인가봐</p>
+		</div>
+	</div>
+</body>
+
+</html>

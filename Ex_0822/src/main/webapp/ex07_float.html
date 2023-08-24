@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>float(왼쪽, 오른쪽 정렬)</title>
+		<style>
+			*{margin: 0px; padding: 0px;}
+			#container{
+				margin: 10px auto;
+				width: 500px;
+				border: 5px solid #caa;
+				padding: 10px;
+				background-color: green;
+				overflow: hidden;
+				/* float속성으로 제외된 속성을 처리하기 위해 사용 *항상 같이 씀 */
+			}
+			h1{
+				text-align: center;
+			}
+			.div1{
+				width: 200px; padding: 15px;background-color: #DDA;
+				float: left; 
+				/* 자식영역에서 제외됨 */
+			}
+			.div2{
+				width: 200px; padding: 15px; background-color: #BA7;
+				float: left;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div id="container">
+			<h1>너를 너로써</h1>
+			
+			<div class="div1">
+				<p>
+					이제 보니 니 얼굴 그녀를 닮았어
+					서운해 하지마 그녀도 널 닮았는 걸
+				</p>
+			</div>
+			
+			<div class="div2">
+				<p>
+					이제 보니 니 얼굴 그녀를 닮았어
+					서운해 하지마 그녀도 널 닮았는 걸
+				</p>
+			</div>
+		</div>
+		
+	</body>
+
+</html>

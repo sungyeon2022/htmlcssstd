@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>z-index</title>
+		<style>
+			*{margin: 0px; padding: 0px;}
+			p{
+				border: 1px solid black;
+				padding: 10px;
+				width: 80px;
+				height: 80px;
+				position: absolute;/* 0,0 강제 지정 */
+			}
+			.box1{
+				background-color: darkgreen;
+				left: 101px;
+				top: 101px;
+				z-index: 3;
+				/* 값이 클수록 위로 올라옴
+				   태그의 위치를 지정하는 속성은
+				   absolute 속성이 지정되어야
+				   적용할수있다
+				 */
+			}
+			.box2{
+				background-color: teal;
+				left: 120px;
+				top: 120px;
+				z-index: 2;
+			}
+			.box3{
+				background-color: olivedrab;
+				left: 140px;
+				top: 140px;
+				z-index: 1;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<p class="box1">박스1</p>
+		<p class="box2">박스2</p>
+		<p class="box3">박스3</p>
+	</body>
+
+</html>

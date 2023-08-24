@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>간단한 애니메이션</title>
+		<style>
+			#ex{
+				width: 100px; height: 100px;
+				background-color: darkgreen;
+				border-radius: 0;
+				
+				transition-property: background, border-radius;
+				transition-duration: 2s;
+				transition-delay: 1s;
+				
+				-webkit-transition-property: background, border-radius;
+				-webkit-transition-duration: 2s;
+				-webkit-transition-delay: 1s;
+				
+				-moz-transition-property: background, border-radius;
+				-moz-transition-duration: 2s;
+				-moz-transition-delay: 1s;
+				
+				-o-transition-property: background, border-radius;
+				-o-transition-duration: 2s;
+				-o-transition-delay: 1s;
+				
+				/*
+				-webkit : 크롬,사파리 브라우저 호환
+				-moz : 파이어폭스 브라우저 호환 
+				-o : 오페라 브라우저 호환
+				-ms : 익스플로러 용이지만 익스플로러 사라짐
+				 */
+			}
+			
+			#ex:hover{
+				background-color: brown;
+				border-radius: 50px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div id="ex"></div>
+	</body>
+
+</html>

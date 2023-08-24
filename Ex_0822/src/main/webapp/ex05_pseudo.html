@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>pseudo 클래스</title>
+		<style>
+			li{
+				list-style: none;
+				display: inline;
+			}
+			/* 특정 위치나 특정 순서의 자식을 가져오는 속성 */
+			li:nth-child(odd){
+				color: red;
+			}
+			li:nth-child(even){
+				color: green;
+			}
+			li:nth-child(4n){
+				background-color: yellow;
+			}
+			li:nth-child(5){
+				color: aqua;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li>6</li>
+			<li>7</li>
+			<li>8</li>
+			<li>9</li>
+			<li>10</li>
+		</ul>
+		<hr>
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li>6</li>
+			<li>7</li>
+			<li>8</li>
+			<li>9</li>
+			<li>10</li>
+		</ul>
+	</body>
+
+</html>

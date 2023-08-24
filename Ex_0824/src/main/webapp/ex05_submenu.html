@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>서브메뉴</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<style>
+			#menu{
+				height: 40px;
+				font-size: 12px;
+				width: 100%;
+				background-color: #63696b;
+			}
+			.nav{
+				background:#63696b;
+				height: 40px;
+				width: 1000px;
+				margin: 0 auto;
+				position: relative;
+			}
+			.nav li{
+				float: left;
+			}
+			.nav > li > a{
+				display: block;
+				line-height: 40px;
+				color: white;
+				font-weight: bold;
+				text-align: center;
+				padding: 0 26px;
+				}
+			.nav .plus a:hover{
+				background: #aaf;
+			}
+			.nav > li:hover > a.mm{
+				background-color: #ef3c84;
+				}
+			/* 하위메뉴 속성 */
+			.nav .sub{
+				position: absolute;
+				left: 0; top: 40px;
+				display: none;
+			}
+			/* 하위메뉴 보여주기 */
+			.nav > li:hover .sub{
+				display: block;
+			}
+			.nav > li:hover > a{
+				background: #4a96de;
+				color: #FFF;
+			}
+			.nav .sub li a{
+				display: block;
+				height: 40px;
+				padding: 0 5px;
+				color: #666;
+			}
+			.nav .sub li a:hover{
+				color: coral;
+			}
+			.sub2 li:first-child{
+				margin-left: 100px;
+			}
+			.sub3 li:first-child{
+				margin-left: 200px;
+			}
+			.sub4 li:first-child{
+				margin-left: 300px;
+			}
+			.sub5 li:first-child{
+				margin-left: 375px;
+			}
+			.sub6 li:first-child{
+				margin-left: 450px;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<div id="menu">
+			<ul class="nav">
+				<li>
+					<a href="#">
+						개인뱅킹
+					</a>
+					<ul class="sub">
+						<li><a href="#">조회</a></li>
+						<li><a href="#">이체</a></li>
+						<li><a href="#">신규/해지</a></li>
+						<li><a href="#">공과금/법원</a></li>
+						<li><a href="#">뱅킹보안센터</a></li>
+						<li><a href="#">골드뱅킹</a></li>
+						<li><a href="#">금융서비스</a></li>							
+						<li><a href="#">사용자관리</a></li>
+						<li><a href="#">카드/증권</a></li>
+					</ul>
+				</li>
+				<!-- 1번 메뉴 -->
+				<li>
+					<a href="#">
+						자산관리
+					</a>
+					<ul class="sub sub2">
+						<li><a href="#">조회</a></li>
+						<li><a href="#">이체</a></li>
+						<li><a href="#">신규/해지</a></li>
+						<li><a href="#">공과금/법원</a></li>
+						<li><a href="#">뱅킹보안센터</a></li>
+						<li><a href="#">골드뱅킹</a></li>
+						<li><a href="#">금융서비스</a></li>							
+						<li><a href="#">사용자관리</a></li>
+						<li><a href="#">카드/증권</a></li>
+					</ul>
+				</li>
+				<!-- 2번 메뉴 -->
+				<li>
+					<a href="#">
+						예금신탁
+					</a>
+					<ul class="sub sub3">
+						<li><a href="#">조회</a></li>
+						<li><a href="#">이체</a></li>
+						<li><a href="#">신규/해지</a></li>
+						<li><a href="#">공과금/법원</a></li>
+						<li><a href="#">뱅킹보안센터</a></li>
+						<li><a href="#">골드뱅킹</a></li>
+						<li><a href="#">금융서비스</a></li>							
+						<li><a href="#">사용자관리</a></li>
+						<li><a href="#">카드/증권</a></li>
+					</ul>
+				</li>
+				<!-- 3번 메뉴 -->
+				<li>
+					<a href="#">
+						대출
+					</a>
+					<ul class="sub sub4">
+						<li><a href="#">조회</a></li>
+						<li><a href="#">이체</a></li>
+						<li><a href="#">신규/해지</a></li>
+						<li><a href="#">공과금/법원</a></li>
+						<li><a href="#">뱅킹보안센터</a></li>
+						<li><a href="#">골드뱅킹</a></li>
+						<li><a href="#">금융서비스</a></li>							
+						<li><a href="#">사용자관리</a></li>
+						<li><a href="#">카드/증권</a></li>
+					</ul>
+				</li>
+				<!-- 4번 메뉴 -->
+				<li>
+					<a href="#">
+						펀드
+					</a>
+					<ul class="sub sub5">
+						<li><a href="#">조회</a></li>
+						<li><a href="#">이체</a></li>
+						<li><a href="#">신규/해지</a></li>
+						<li><a href="#">공과금/법원</a></li>
+						<li><a href="#">뱅킹보안센터</a></li>
+						<li><a href="#">골드뱅킹</a></li>
+						<li><a href="#">금융서비스</a></li>							
+						<li><a href="#">사용자관리</a></li>
+						<li><a href="#">카드/증권</a></li>
+					</ul>
+				</li>
+				<!-- 5번 메뉴 -->
+				<li>
+					<a href="#">
+						외환
+					</a>
+					<ul class="sub sub6">
+						<li><a href="#">조회</a></li>
+						<li><a href="#">이체</a></li>
+						<li><a href="#">신규/해지</a></li>
+						<li><a href="#">공과금/법원</a></li>
+						<li><a href="#">뱅킹보안센터</a></li>
+						<li><a href="#">골드뱅킹</a></li>
+						<li><a href="#">금융서비스</a></li>							
+						<li><a href="#">사용자관리</a></li>
+						<li><a href="#">카드/증권</a></li>
+					</ul>
+				</li>
+				<!-- 6번 메뉴 -->
+				<li class="plus"><a href="#">퇴직연금</a></li>
+				<li class="plus"><a href="#">골드</a></li>
+				<li class="plus"><a href="#">보험</a></li>
+				<li class="plus"><a href="#" class="mm">미션플러스</a></li>
+			</ul>
+		</div>
+	</body>
+
+</html>
